@@ -1,1 +1,12 @@
-Read me
+# Create Login User example
+
+## How to use
+
+Download the example and go next step:
+
+
+```sh
+npm install
+npm install @material-ui/icons
+npm start
+```
