@@ -1,4 +1,4 @@
-# Create Dashboards example
+# Create Checklist example
 
 ## How to use
 
