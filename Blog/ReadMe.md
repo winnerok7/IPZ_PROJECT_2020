@@ -1,4 +1,4 @@
-# Create Dashboards example
+# Create Blog example
 
 ## How to use
 
