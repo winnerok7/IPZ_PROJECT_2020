@@ -8,5 +8,6 @@ Download the example and go next step:
 ```sh
 npm install
 npm install @material-ui/icons
+npm install recharts
 npm start
 ```
