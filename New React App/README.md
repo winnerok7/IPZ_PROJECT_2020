@@ -2,7 +2,7 @@
 
 ## How to use
 
-Download the example go next step:
+Download the example and go next step:
 
 ```sh
 npm install -g create-react-app
