@@ -1,8 +1,8 @@
-# Create Dashboards example
+# Створіть Dashboards приклад
 
-## How to use
+## Як користуватись
 
-Download the example and go next step:
+Завантажте приклад і перейдіть до наступних кроків у терміналі:
 
 
 ```sh
