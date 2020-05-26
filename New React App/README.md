@@ -1,14 +1,14 @@
-# Create React App example
+# Створіть приклад React App
 
-## How to use
+## Як користуватись
 
-Download the example and go next step:
+Завантажте приклад і перейдіть до наступного кроку:
 
 ```sh
 npm install -g create-react-app
 ```
 
-Install npm and run project:
+Встановити node_modules та запустити проект:
 
 ```sh
 npm install
