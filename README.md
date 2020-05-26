@@ -1,12 +1,12 @@
-# How to use
+# Як користуватись?
 
-## Download the New React App folder
-Install node packages (npm) and run:
+## Завантажте папку New React App
+Встановіть пакети вузлів (npm) та запустіть:
 
 ```sh
 npm install
 npm start
 ```
 
-After you download the main example, 
-you can download the rest of the projects and again install the npm package and additional packages (if necessary) run them
+Завантаживши основний приклад,
+ви можете завантажити решту проектів і знову встановити пакет npm та додаткові пакети (за потреби) і запустити їх.
