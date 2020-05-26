@@ -1,9 +1,8 @@
-# Create Login User example
+# Створіть Login User приклад 
 
-## How to use
+## Як користуватись
 
-Download the example and go next step:
-
+Завантажте приклад і перейдіть до наступних кроків у терміналі::
 
 ```sh
 npm install
