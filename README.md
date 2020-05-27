@@ -14,17 +14,22 @@ npm start
 ## Приклади роботи проектів
 
 **Login User**
-`https://calm-stream-41759.herokuapp.com/`
+
+https://calm-stream-41759.herokuapp.com/
 
 **Dashboards**
-`https://mysterious-peak-64559.herokuapp.com/`
+
+https://mysterious-peak-64559.herokuapp.com/
 
 **Checklist Menu**
-`https://stormy-thicket-27872.herokuapp.com/`
+
+https://stormy-thicket-27872.herokuapp.com/
 
 **Price menu**
-`https://arcane-gorge-02869.herokuapp.com/`
+
+https://arcane-gorge-02869.herokuapp.com/
 
 **Blog**
-`https://thawing-sierra-78382.herokuapp.com/`
+
+https://thawing-sierra-78382.herokuapp.com/
 
