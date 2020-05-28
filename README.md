@@ -33,3 +33,4 @@ https://arcane-gorge-02869.herokuapp.com/
 
 https://thawing-sierra-78382.herokuapp.com/
 
+*Добавить Висновок Автора и Ссылку на гит с баннером*
