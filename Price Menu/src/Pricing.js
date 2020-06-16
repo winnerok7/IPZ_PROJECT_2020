@@ -15,19 +15,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
 const useStyles = makeStyles((theme) => ({
   '@global': {
     ul: {
@@ -135,7 +122,9 @@ export default function Pricing() {
       <AppBar position="static" color="default" elevation={0} className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
-            Butsev_Kulinich Co.
+          <Link color="inherit" href="https://github.com/winnerok7/IPZ_PROJECT_2020">
+            Our project - Link on Github
+            </Link>
           </Typography>
           <nav>
             <Link variant="button" color="textPrimary" href="#" className={classes.link}>
@@ -226,7 +215,6 @@ export default function Pricing() {
           ))}
         </Grid>
         <Box mt={5}>
-          <Copyright />
         </Box>
       </Container>
       {/* End footer */}
