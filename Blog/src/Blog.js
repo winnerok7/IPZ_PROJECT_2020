@@ -15,8 +15,25 @@ import Footer from "./Footer";
 import post1 from "./blog-post1.md";
 import post2 from "./blog-post2.md";
 import post3 from "./blog-post3.md";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
+import Typography from "@material-ui/core/Typography";
+import Link from "@material-ui/core/Link";
 
 const useStyles = makeStyles(theme => ({
+  appBar: {
+    position: "relative"
+  },
+  layout: {
+    width: "auto",
+    marginLeft: theme.spacing(2),
+    marginRight: theme.spacing(2),
+    [theme.breakpoints.up(600 + theme.spacing(2) * 2)]: {
+      width: 600,
+      marginLeft: "auto",
+      marginRight: "auto"
+    }
+  },
   mainGrid: {
     marginTop: theme.spacing(3)
   }
@@ -95,6 +112,15 @@ export default function Blog() {
   return (
     <React.Fragment>
       <CssBaseline />
+      <AppBar position="absolute" color="default" className={classes.appBar}>
+        <Toolbar>
+          <Typography variant="h6" color="inherit" noWrap>
+          <Link color="inherit" href="https://github.com/winnerok7/IPZ_PROJECT_2020">
+            Our project - Link on Github
+            </Link>
+          </Typography>
+        </Toolbar>
+      </AppBar>
       <Container maxWidth="lg">
         <Header title="Blog" sections={sections} />
         <main>
