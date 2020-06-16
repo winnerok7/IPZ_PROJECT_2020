@@ -22,19 +22,6 @@ import { mainListItems, secondaryListItems } from './listItems';
 import Chart from './Chart';
 import Orders from './Orders';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -142,7 +129,9 @@ export default function Dashboard() {
             <MenuIcon />
           </IconButton>
           <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
-            Dashboard
+          <Link color="inherit" href="https://github.com/winnerok7/IPZ_PROJECT_2020">
+            Our project - Link on Github
+            </Link>
           </Typography>
           <IconButton color="inherit">
             <Badge badgeContent={4} color="secondary">
@@ -186,7 +175,6 @@ export default function Dashboard() {
             </Grid>
           </Grid>
           <Box pt={4}>
-            <Copyright />
           </Box>
         </Container>
       </main>
