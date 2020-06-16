@@ -14,19 +14,6 @@ import AddressForm from "./AddressForm";
 import PaymentForm from "./PaymentForm";
 import Review from "./Review";
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {"Copyright © "}
-      <Link color="inherit">
-        Your Website
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
-
 const useStyles = makeStyles(theme => ({
   appBar: {
     position: "relative"
@@ -97,7 +84,9 @@ export default function Checkout() {
       <AppBar position="absolute" color="default" className={classes.appBar}>
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            Butsev-Kulinich Co.
+          <Link color="inherit" href="https://github.com/winnerok7/IPZ_PROJECT_2020">
+            Project by Kulinich & Butsev - Link on Github
+            </Link>
           </Typography>
         </Toolbar>
       </AppBar>
@@ -147,7 +136,6 @@ export default function Checkout() {
             )}
           </React.Fragment>
         </Paper>
-        <Copyright />
       </main>
     </React.Fragment>
   );
