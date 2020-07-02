@@ -31,6 +31,6 @@ https://arcane-gorge-02869.herokuapp.com/
 
 **Blog**
 
-https://thawing-sierra-78382.herokuapp.com/
+https://radiant-tor-72049.herokuapp.com/
 
-*Перезалить на Хероку проекты!!!*
+
