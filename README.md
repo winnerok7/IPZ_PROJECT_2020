@@ -27,7 +27,7 @@ https://desolate-mesa-96163.herokuapp.com/
 
 **Price menu**
 
-https://arcane-gorge-02869.herokuapp.com/
+https://glacial-castle-72544.herokuapp.com/
 
 **Blog**
 
