@@ -23,7 +23,7 @@ https://obscure-gorge-64550.herokuapp.com/
 
 **Checklist Menu**
 
-https://stormy-thicket-27872.herokuapp.com/
+https://desolate-mesa-96163.herokuapp.com/
 
 **Price menu**
 
